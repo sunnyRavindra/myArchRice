@@ -1,5 +1,6 @@
 #!/bin/bash
 
+yes | pacman -Syu 
 yes | pacman -S neovim 
 yes | pacman -S base-devel
 yes | pacman -S freetype2 
@@ -16,7 +17,9 @@ yes | pacman -S picom
 yes | pacman -S python-pywal
 yes | pacman -S nitrogen
 yes | pacman -S feh
-
-sudo -u sunny cp ~/.xinitrc ~/myArchRice/.xinitrc
-sudo -u sunny cp ~/.config/picom.conf ~/myArchRice/picom.conf
-sudo -u sunny cp ~/.config/alacritty/alacritty.yml ~/myArchRice/alacritty.yml
+yes | pacman -S neofetch
+yes | pacman -S unzip
+yes | pacman -S x11-xserver-utils 
+yes | pacman -S xdotool 
+yes | pacman -S wmctrl
+cp ./dwm-restart /usr/local/bin

@@ -15,3 +15,4 @@ else
     echo "No files found in $wallpaper_dir"
 fi
 
+./change-colors-alacritty.sh
