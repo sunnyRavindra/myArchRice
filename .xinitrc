@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
@@ -38,9 +38,10 @@ fi
 
 ~/myArchRice/scripts/copy-dot-files.sh
 
-~/myArchRice/scripts/theme-change.sh
+~/myArchRice/scripts/color-scheme.sh
+
+~/myArchRice/scripts/open-firefox.sh &
 
 picom --config ~/.config/picom.conf &
-
 
 exec dwm

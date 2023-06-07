@@ -22,4 +22,11 @@ yes | pacman -S unzip
 yes | pacman -S x11-xserver-utils 
 yes | pacman -S xdotool 
 yes | pacman -S wmctrl
-cp ./dwm-restart /usr/local/bin
+yes | pacman -S xorg-xsetroot
+yes | pacman -S zsh
+yes | pacman -S zsh-completions
+yes | pacman -S tree
+yes | pacman -S bluez-utils
+yes | pacman -S ttf-font-awesome
+yes | pacman -S ttf-nerd-fonts-symbols
+yes | paru -S python-pywalfox
