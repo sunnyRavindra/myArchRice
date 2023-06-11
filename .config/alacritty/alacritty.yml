@@ -1,0 +1,21 @@
+font:
+  family: monospace
+  style: Regular
+  size: 7
+# Default colors
+colors:
+  # Default colors
+  primary:
+    background: "#160f10"
+    foreground: "#ddd0c8"
+
+  # Bright colors
+  bright:
+    background: "#160f10"
+    foreground: "#ddd0c8"
+
+  # Cursor color
+  cursor:
+    text: '0xFFFFFF'
+    cursor: '#7B84AC'
+

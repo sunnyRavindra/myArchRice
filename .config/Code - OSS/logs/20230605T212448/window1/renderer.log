@@ -1,0 +1,15 @@
+2023-06-05 21:24:50.129 [info] Started initializing default profile extensions in extensions installation folder. file:///home/sunny/.vscode-oss/extensions
+2023-06-05 21:24:50.442 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/sunny/.vscode-oss/extensions
+2023-06-05 21:24:53.542 [info] [perf] Render performance baseline is 74ms
+2023-06-05 21:25:24.179 [warning] Settings pattern "security.*" doesn't match any settings
+2023-06-05 21:25:24.179 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: interactiveEditor.editMode, accessibility.verbosity.diff-editor, accessibility.verbosity.terminal
+2023-06-05 21:26:10.297 [info] Importing Profile (Default): No keybindings to apply...
+2023-06-05 21:26:10.299 [info] Importing Profile (Default): No keybindings to apply...
+2023-06-05 21:26:10.304 [info] Importing Profile (Default): No tasks to apply...
+2023-06-05 21:26:10.307 [info] Importing Profile (Default): No tasks to apply...
+2023-06-05 21:27:41.407 [warning] Settings pattern "security.*" doesn't match any settings
+2023-06-05 21:28:44.229 [warning] Settings pattern "security.*" doesn't match any settings
+2023-06-05 21:37:16.043 [warning] Settings pattern "security.*" doesn't match any settings
+2023-06-05 21:37:53.772 [info] [perf] Render performance baseline is 60ms
+2023-06-05 21:38:52.267 [warning] Settings pattern "security.*" doesn't match any settings
+2023-06-05 21:38:52.268 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: interactiveEditor.editMode, accessibility.verbosity.diff-editor, accessibility.verbosity.terminal
