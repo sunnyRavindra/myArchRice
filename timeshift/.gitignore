@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!PKGBUILD
+!.SRCINFO
+!timeshift.install
+!grub-btrfs.path
+!snapshot-detect
+!snapshot-detect.desktop

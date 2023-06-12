@@ -1,6 +1,21 @@
-
 font:
   family: monospace
   style: Regular
   size: 7
+# Default colors
+colors:
+  # Default colors
+  primary:
+    background: "#0a0f16"
+    foreground: "#c6c3c7"
+  # Bright colors
+  bright:
+    background: "#0a0f16"
+    foreground: "#c6c3c7"
 
+  # Cursor color
+  cursor:
+    text: '0xFFFFFF'
+    cursor: "#c6c3c7"
+shell: 
+  program: /usr/bin/zsh 
