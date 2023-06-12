@@ -6,16 +6,16 @@ font:
 colors:
   # Default colors
   primary:
-    background: "#0a0f16"
-    foreground: "#c6c3c7"
+    background: "#0F0507"
+    foreground: "#ecc2c9"
   # Bright colors
   bright:
-    background: "#0a0f16"
-    foreground: "#c6c3c7"
+    background: "#0F0507"
+    foreground: "#ecc2c9"
 
   # Cursor color
   cursor:
     text: '0xFFFFFF'
-    cursor: "#c6c3c7"
+    cursor: "#ecc2c9"
 shell: 
   program: /usr/bin/zsh 

@@ -5,7 +5,8 @@
     cp ~/.Xresources ~/myArchRice/dotfiles/ &
     cp ~/.config/picom.conf ~/myArchRice/dotfiles/ &
     cp ~/.config/alacritty/alacritty.yml ~/myArchRice/dotfiles/ &
-    cp ~/.config/doom/* ~/myArchRice/dotfiles/ &
+    cp -R ~/.config/doom ~/myArchRice/dotfiles/ &
+    cp -R ~/.config/nvim ~/myArchRice/dotfiles/ &
 
     sleep 2 
     xdotool key --clearmodifiers Alt_L+9 &
