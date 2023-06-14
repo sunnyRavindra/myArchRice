@@ -18,7 +18,7 @@ while true; do
             git add -A
 
             # Commit changes with a default commit message
-            git commit -m "Auto commit: $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "Minor Fix: $(date '+%Y-%m-%d %H:%M:%S')"
 
             # Push changes to the current branch
             git push origin HEAD
@@ -27,6 +27,7 @@ while true; do
         # Change back to the original directory
         cd "$repo_dir"
     done
+
 
     # Sleep for 3 minutes
     sleep 180
