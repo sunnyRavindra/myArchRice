@@ -3,7 +3,7 @@
 Welcome to the "myArchRice" repository! This repository contains my personal rice for Arch Linux, including configurations for DWM, ST (Simple Terminal), and dmenu. Additionally, it includes a handy script folder to automate committing changes to Git.
 Repository Structure
 
-The repository is organized as follows:
+## The repository is organized as follows:
 
     dwm/: Contains the DWM window manager configuration files. This directory includes the entire DWM source code, forked from the original repository, along with my custom configuration files.
 
@@ -13,7 +13,7 @@ The repository is organized as follows:
 
     scripts/: Includes a helpful script folder to automate the process of committing changes to Git repositories. The commit-and-push-all-loop.sh script inside this folder automatically checks for unstaged changes in all repositories, stages, commits, and pushes them to their respective branches on GitHub. The script runs every 3 minutes to ensure timely synchronization.
 
-Usage
+## Usage
 
 Feel free to explore the various directories and files to understand my customized Arch Linux rice. You can make modifications or use them as a reference for creating your own personalized setup.
 
@@ -27,7 +27,7 @@ To use the commit script located in the scripts/ folder, follow these steps:
 
     Run the script by executing scripts/commit-and-push-all-loop.sh. The script will automatically check for unstaged changes in your repositories, stage, commit, and push them to their respective branches on GitHub. The process repeats every 3 minutes to keep your repositories up to date.
 
-Contributions
+## Contributions
 
 Contributions to this repository are not currently accepted, as it represents my personal Arch Linux rice. However, feel free to fork this repository and adapt it to suit your own needs. If you encounter any issues or have suggestions, please feel free to open an issue on the repository page.
 License
