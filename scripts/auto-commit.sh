@@ -3,7 +3,6 @@
 # Directory where your Git repositories are located
 repo_dir="$HOME/code"
 
-while true; do
     # Change to the repository directory
     cd "$repo_dir"
 
@@ -29,6 +28,3 @@ while true; do
     done
 
 
-    # Sleep for 3 minutes
-    sleep 180
-done
