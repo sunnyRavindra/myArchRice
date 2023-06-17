@@ -1,4 +1,4 @@
-#!/bin/bash
+#!usr/bin/zsh
 while true; do
 wal -i $(find ~/myArchRice/wallpapers -type f | shuf -n 1)
 
@@ -31,5 +31,6 @@ Time=$(TZ='Asia/Kolkata' date -u)
 
 xsetroot -name "| $UserName | GPU - $GPUPerCent% | CPU - $CpuPerCent | $BatarryStatus - $Batarry | Time - $Time |"
 
+lss
    sleep 100
  done
