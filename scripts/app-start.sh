@@ -13,7 +13,7 @@
     sleep 2 
     alacritty -e sh -c "sleep 1 && sh ~/myArchRice/scripts/color-scheme.sh" &
     sleep 2
-    alacritty -e sh -c "htop" &
+    alacritty -e sh -c "bpytop" &
     sleep 2
     xdotool key --clearmodifiers Alt_L+1 &
     sleep 2
