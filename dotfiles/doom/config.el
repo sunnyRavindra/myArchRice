@@ -3,17 +3,12 @@
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
 
-
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
 (setq user-full-name "Sunny Ravindra"
       user-mail-address "sunnyravbusiness@gmail.com")
 
 (setq default-frame-alist '((background-color . "#FFFFFF")))
-
-
-
-
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
@@ -47,7 +42,6 @@
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
-
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.

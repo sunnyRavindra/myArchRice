@@ -34,6 +34,6 @@
     sleep 2
     xdotool key --clearmodifiers Alt_L+4 &
     sleep 2
-    alacritty -e sh -c "sleep 1 && sh ranger" &
+    thunar &
     sleep 2
     xdotool key --clearmodifiers Alt_L+9 &
