@@ -28,8 +28,8 @@ typedef struct {
 	const char *name;
 	const void *cmd;
 } Sp;
-const char *spcmd1[] = {"st", "-n", "spterm", "-g", "220x64", NULL };
-const char *spcmd2[] = {"st", "-n", "spfm", "-g", "220x64", NULL };
+const char *spcmd1[] = {"st", "-n", "spterm", "-g", "260x74", NULL };
+const char *spcmd2[] = {"st", "-n", "spfm", "-g", "260x74", NULL };
 static Sp scratchpads[] = {
 	/* name          cmd  */
 	{"spterm",      spcmd1},
@@ -43,7 +43,7 @@ static const unsigned int alphas[][3]      = {
 	[SchemeSel]  = { OPAQUE, baralpha, borderalpha },
 };
  /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "| 🌍--FireFox--1 |", "| 🖥️--Terminal--2 |", "| Emacs--3 |", "| Obsidian--4 |", "| FileManager--5 |", "| 6 |", "| 7 |", "| 8 |", "| SystemStats--9 |" };
 
  
 static const unsigned int ulinepad	= 5;	/* horizontal padding between the underline and tag */
