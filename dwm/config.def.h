@@ -17,7 +17,7 @@ static char selfgcolor[]            = "#eeeeee";
 static char selbordercolor[]        = "#005577";
 static char selbgcolor[]            = "#005577";
 static const unsigned int baralpha = 0xd0; //setting bar to transparent
-static const unsigned int borderalpha = 0.4;  //setting bar to transparent
+static const unsigned int borderalpha = 1;  //setting bar to transparent
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
@@ -43,7 +43,7 @@ static const unsigned int alphas[][3]      = {
 	[SchemeSel]  = { OPAQUE, baralpha, borderalpha },
 };
  /* tagging */
-static const char *tags[] = { "| 🌍--FireFox--1 |", "| 🖥️--Terminal--2 |", "| Emacs--3 |", "| Obsidian--4 |", "| FileManager--5 |", "| 6 |", "| 7 |", "| 8 |", "| SystemStats--9 |" };
+static const char *tags[] = { "|  --FireFox--1 |", "| 🖥️--Terminal--2 |", "| Emacs--3 |", "| Obsidian--4 |", "| FileManager--5 |", "| 6 |", "| 7 |", "| 8 |", "| SystemStats--9 |" };
 
  
 static const unsigned int ulinepad	= 5;	/* horizontal padding between the underline and tag */
