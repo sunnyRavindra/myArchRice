@@ -17,8 +17,5 @@ lss() {
    ~/code/Docker/Docker-Commands.sh
 }
 
-devc() {
-   ~/code/myArchRice/scripts/devcontainer.sh $1
-}
 
 source $ZSH/oh-my-zsh.sh

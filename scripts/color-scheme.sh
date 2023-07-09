@@ -29,7 +29,7 @@ CpuPerCent=$(sar -u 1 1 | awk '/Average:/ {print 100 - $NF "%"}')
 GPUPerCent=$(nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits | awk '{print $1}')
 Time=$(TZ='Asia/Kolkata' date -u)
 
-xsetroot -name "| $UserName | GPU - $GPUPerCent% | CPU - $CpuPerCent | $BatarryStatus - $Batarry | Time - $Time |"
+xsetroot -name "| 🎮--GPU-$GPUPerCent%-- | 💻--CPU-$CpuPerCent-- | 🔋--$BatarryStatus-$Batarry-- |"
 
 lss
    sleep 100
