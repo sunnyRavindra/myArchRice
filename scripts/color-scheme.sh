@@ -1,6 +1,6 @@
 #!usr/bin/zsh
 while true; do
-wal -i $(find ~/myArchRice/wallpapers -type f | shuf -n 1)
+wal -i $(find ~/code/myArchRice/wallpapers -type f | shuf -n 1)
 
 source ~/.cache/wal/colors.sh
 
