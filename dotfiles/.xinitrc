@@ -36,9 +36,9 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-cp ~/.xinitrc ~/myArchRice/dotfiles/ &
+cp ~/.xinitrc ~/code/myArchRice/dotfiles/ &
 
-~/myArchRice/scripts/app-start.sh &
+~/code/myArchRice/scripts/app-start.sh &
 
 picom --config ~/.config/picom.conf &
 

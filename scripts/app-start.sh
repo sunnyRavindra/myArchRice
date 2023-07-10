@@ -11,7 +11,7 @@
     sleep 2 
     xdotool key --clearmodifiers Alt_L+9 &
     sleep 2 
-    alacritty -e sh -c "sleep 1 && sh ~/myArchRice/scripts/color-scheme.sh" &
+    alacritty -e sh -c "sleep 1 && sh ~/code/myArchRice/scripts/color-scheme.sh" &
     sleep 2
     alacritty -e sh -c "bpytop" &
     sleep 2

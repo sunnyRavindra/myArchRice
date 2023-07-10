@@ -1,4 +1,4 @@
-#!usr/bin/zsh
+#!/bin/bash
 while true; do
 wal -i $(find ~/code/myArchRice/wallpapers -type f | shuf -n 1)
 
