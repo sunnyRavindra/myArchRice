@@ -276,7 +276,6 @@ static Client *swallowingclient(Window w);
 static Client *termforwin(const Client *c);
 static pid_t winpid(Window w);
 
-
 /* variables */
 static const char broken[] = "broken";
 static char stext[256];
@@ -311,12 +310,12 @@ static Drw *drw;
 static Monitor *mons, *selmon;
 static Window root, wmcheckwin;
 
-static xcb_connection_t *xcon;
-
 static int useargb = 0;
 static Visual *visual;
 static int depth;
 static Colormap cmap;
+
+static xcb_connection_t *xcon;
 
 /* configuration, allows nested code to access above variables */
 #include "config.h"
@@ -760,9 +759,9 @@ destroynotify(XEvent *e)
 
 	if ((c = wintoclient(ev->window)))
 		unmanage(c, 1);
+
 	else if ((c = swallowingclient(ev->window)))
 		unmanage(c->swallowing, 1);
-
 }
 
 void
@@ -1980,7 +1979,6 @@ unmanage(Client *c, int destroyed)
 		return;
 	}
 
-
 	detach(c);
 	detachstack(c);
 	if (!destroyed) {
@@ -1996,6 +1994,7 @@ unmanage(Client *c, int destroyed)
 		XUngrabServer(dpy);
 	}
 	free(c);
+
 	if (!s) {
 		arrange(m);
 		focus(NULL);
@@ -2396,7 +2395,6 @@ swallowingclient(Window w)
 	return NULL;
 }
 
-
 Client *
 wintoclient(Window w)
 {
@@ -2536,14 +2534,12 @@ main(int argc, char *argv[])
 		fputs("warning: no locale support\n", stderr);
 	if (!(dpy = XOpenDisplay(NULL)))
 		die("dwm: cannot open display");
-	if (!(xcon = XGetXCBConnection(dpy)))
-		die("dwm: cannot get xcb connection\n");
 	checkotherwm();
         XrmInitialize();
         loadxrdb();
 	setup();
 #ifdef __OpenBSD__
-	if (pledge("stdio rpath proc exec ps", NULL) == -1)
+	if (pledge("stdio rpath proc exec", NULL) == -1)
 		die("pledge");
 #endif /* __OpenBSD__ */
 	scan();
