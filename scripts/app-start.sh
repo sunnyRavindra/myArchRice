@@ -29,11 +29,10 @@
     sleep 2
     xdotool key --clearmodifiers Alt_L+3 &
     sleep 2
-    /usr/bin/emacs --daemon
-    alacritty -e sh -c "~/.config/.emac.d/bin/doom run" 
+    alacritty -e zsh -c "doom run"   
     sleep 2
     xdotool key --clearmodifiers Alt_L+4 &
     sleep 2
-    alacritty -e sh -c "sleep 1 && sh ~/.local/share/applications/Obsidian-1.3.5-arm64.AppImage" &
+    alacritty -e zsh -c "obsidian"  
     sleep 2
     xdotool key --clearmodifiers Alt_L+9 &
