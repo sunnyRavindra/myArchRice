@@ -30,10 +30,10 @@
     xdotool key --clearmodifiers Alt_L+3 &
     sleep 2
     /usr/bin/emacs --daemon
-    sh -c "doom run" &
+    alacritty -e sh -c "~/.config/.emac.d/bin/doom run" 
     sleep 2
     xdotool key --clearmodifiers Alt_L+4 &
     sleep 2
-    thunar &
+    alacritty -e sh -c "sleep 1 && sh ~/.local/share/applications/Obsidian-1.3.5-arm64.AppImage" &
     sleep 2
     xdotool key --clearmodifiers Alt_L+9 &
